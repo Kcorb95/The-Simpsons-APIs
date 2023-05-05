@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d0fcd439-dc59-4a45-bf6b-fac66bc69a88",
-		"name": "The Simpsons API",
+		"name": "The (old) Simpsons API",
 		"description": "A collection of various API requests to different Simpsons APIs.\n\nSee request documentation for more details on each request.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Get Simpsons Character",
-					"_postman_id": "54fee917-1c15-4849-b19c-c8cbb89d98a6",
+					"id": "54fee917-1c15-4849-b19c-c8cbb89d98a6",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -35,8 +35,7 @@
 								{
 									"key": "id",
 									"value": "72",
-									"description": "Required. Valid ID for Simpsons character.",
-									"type": "string"
+									"description": "Required. Valid ID for Simpsons character."
 								}
 							]
 						},
@@ -132,7 +131,7 @@
 				},
 				{
 					"name": "Get Simpsons Characters",
-					"_postman_id": "240a699a-8ad4-4207-abda-be4a73b6be40",
+					"id": "240a699a-8ad4-4207-abda-be4a73b6be40",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -212,7 +211,7 @@
 				},
 				{
 					"name": "Get Character By ID",
-					"_postman_id": "74a5e2cb-c554-4518-a9f2-508cbb16ac60",
+					"id": "74a5e2cb-c554-4518-a9f2-508cbb16ac60",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -236,8 +235,7 @@
 								{
 									"id": "f1c117c8-b525-4bc8-8ef3-ffaf30cea89c",
 									"key": "id",
-									"value": "24",
-									"type": "string"
+									"value": "24"
 								}
 							]
 						}
@@ -245,12 +243,12 @@
 					"response": []
 				}
 			],
-			"_postman_id": "cd434524-56e3-43e9-a695-9e0f4da20511",
+			"id": "cd434524-56e3-43e9-a695-9e0f4da20511",
 			"description": "Requests that return characters from the simpsons."
 		},
 		{
 			"name": "Get Random Simpsons Quote",
-			"_postman_id": "63bfbdd6-f2b3-4819-85cf-f508c0fb2a39",
+			"id": "63bfbdd6-f2b3-4819-85cf-f508c0fb2a39",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -314,7 +312,7 @@
 		},
 		{
 			"name": "Get Random Simpsons Episode",
-			"_postman_id": "4bd9f3fb-adbc-4b29-9a61-edbf7c4cde4e",
+			"id": "4bd9f3fb-adbc-4b29-9a61-edbf7c4cde4e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
