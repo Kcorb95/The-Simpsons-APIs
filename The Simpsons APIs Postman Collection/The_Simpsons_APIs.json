@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d0fcd439-dc59-4a45-bf6b-fac66bc69a88",
-		"name": "The (old) Simpsons API",
+		"name": "The Simpsons API",
 		"description": "A collection of various API requests to different Simpsons APIs.\n\nSee request documentation for more details on each request.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
