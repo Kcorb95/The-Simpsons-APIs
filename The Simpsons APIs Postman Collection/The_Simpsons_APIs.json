@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "d0fcd439-dc59-4a45-bf6b-fac66bc69a88",
+		"_postman_id": "66d7d56c-c312-4225-8c3b-53c42c426de8",
 		"name": "The Simpsons API",
 		"description": "A collection of various API requests to different Simpsons APIs.\n\nSee request documentation for more details on each request.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
@@ -11,7 +11,7 @@
 			"item": [
 				{
 					"name": "Get Simpsons Character",
-					"id": "54fee917-1c15-4849-b19c-c8cbb89d98a6",
+					"_postman_id": "bccce42f-9a11-4a89-9640-d9a06e939f1e",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -33,9 +33,11 @@
 							],
 							"variable": [
 								{
+									"id": "2f304e0c-0ca9-49a3-87e6-f00f3bab5a26",
 									"key": "id",
 									"value": "72",
-									"description": "Required. Valid ID for Simpsons character."
+									"description": "Required. Valid ID for Simpsons character.",
+									"type": "string"
 								}
 							]
 						},
@@ -43,7 +45,7 @@
 					},
 					"response": [
 						{
-							"id": "74beb053-f00c-4e21-9350-6713efd54942",
+							"id": "0962d697-911c-42a7-9798-f900ce6c56dd",
 							"name": "Get Simpsons Character",
 							"originalRequest": {
 								"method": "GET",
@@ -131,7 +133,7 @@
 				},
 				{
 					"name": "Get Simpsons Characters",
-					"id": "240a699a-8ad4-4207-abda-be4a73b6be40",
+					"_postman_id": "78c82742-b4a2-4ca2-a39d-3bc987a589cb",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -143,7 +145,7 @@
 					},
 					"response": [
 						{
-							"id": "74d58dd2-df04-425d-9a24-9d636481ae94",
+							"id": "3c5fe6d2-4a57-4df1-9615-29f62cd39b7b",
 							"name": "Get Simpsons Characters",
 							"originalRequest": {
 								"method": "GET",
@@ -211,7 +213,7 @@
 				},
 				{
 					"name": "Get Character By ID",
-					"id": "74a5e2cb-c554-4518-a9f2-508cbb16ac60",
+					"_postman_id": "5e5931db-162f-4140-ad63-73a3b2591e2d",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
@@ -233,9 +235,10 @@
 							],
 							"variable": [
 								{
-									"id": "f1c117c8-b525-4bc8-8ef3-ffaf30cea89c",
+									"id": "6685f94b-402a-4c2f-9ae1-d05a02d0a353",
 									"key": "id",
-									"value": "24"
+									"value": "24",
+									"type": "string"
 								}
 							]
 						}
@@ -243,12 +246,12 @@
 					"response": []
 				}
 			],
-			"id": "cd434524-56e3-43e9-a695-9e0f4da20511",
+			"_postman_id": "a4c0197f-3a13-4e3c-a57d-390c7db8f879",
 			"description": "Requests that return characters from the simpsons."
 		},
 		{
 			"name": "Get Random Simpsons Quote",
-			"id": "63bfbdd6-f2b3-4819-85cf-f508c0fb2a39",
+			"_postman_id": "c2020d1a-40c1-4714-aa99-a6235275181c",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -260,7 +263,7 @@
 			},
 			"response": [
 				{
-					"id": "9d10e564-588c-40c2-91a0-84e4742418c2",
+					"id": "c8175b56-4a13-4d0d-bbea-c42df0879cbe",
 					"name": "Get Random Simpsons Quote",
 					"originalRequest": {
 						"method": "GET",
@@ -312,7 +315,7 @@
 		},
 		{
 			"name": "Get Random Simpsons Episode",
-			"id": "4bd9f3fb-adbc-4b29-9a61-edbf7c4cde4e",
+			"_postman_id": "5ea2bd60-a7d4-498a-ba68-b381e970b868",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -324,7 +327,7 @@
 			},
 			"response": [
 				{
-					"id": "9160631c-277f-4f0c-9b4f-00e19bd29983",
+					"id": "e53212c5-6142-43b6-920b-60af6b6b9c8a",
 					"name": "Get Random Simpsons Episode",
 					"originalRequest": {
 						"method": "GET",
